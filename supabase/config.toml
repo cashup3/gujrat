@@ -1,0 +1,10 @@
+# https://supabase.com/docs/guides/functions/function-configuration
+
+[functions.submit-comment]
+verify_jwt = false
+
+[functions.approve-comment]
+verify_jwt = false
+
+[functions.admin-api]
+verify_jwt = false
